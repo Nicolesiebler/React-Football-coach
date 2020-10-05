@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+.page {
+  margin: 0;
+  width: 100vw;
+  height: 120vh;
+  background-image: url(/public/audience-1866738_1920.jpg);
+
+  /* position: relative; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* .page::after {
+  content: "";
+  background-image: url(/public/audience-1866738_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .flyingfootball {
+  background: url(/public/football-157930_1280.png) repeat-x;
+  width: 100%;
+  height: 70px;
+  background-size: 2%;
+  animation: footballfly 30s linear infinite;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes footballfly {
   from {
-    transform: rotate(0deg);
+    background-position: 0%;
   }
   to {
-    transform: rotate(360deg);
+    background-position: 100%;
   }
-}
+} */

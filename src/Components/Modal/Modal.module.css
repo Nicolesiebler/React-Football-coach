@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modalWrapper {
+  background: lightgray;
+  width: 80%;
+  max-width: 800px;
+  margin: 4rem auto;
+  transition: all 0.8s ease;
+}
+
+.modalHeader {
+  background: green;
+  color: rgb(84, 84, 84);
+  font-weight: bold;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modalHeader span {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modalContent {
+  padding: 1.5rem 1rem;
+}
+
+.modalBody {
+  padding: 1rem;
+}
